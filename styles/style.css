@@ -8,8 +8,12 @@ h1 {
 #logo {
     padding-top: 109px;
 }
+#search_bar {
+    padding: 20px;
+    max-height: 160px;
+}
 #search {
-    padding-top: 5px;
+    padding: 5px 8px 0 16px;
     font-size: 16px;
     font-family: arial, sans-serif;
     font-stretch: 100%;
@@ -19,7 +23,7 @@ h1 {
     border-color: #dfe1e5;
     width: 584px;
     height: 46px;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
@@ -27,5 +31,44 @@ input:focus {
     outline: none;
 }
 #searchform {
-    border-style: none
+    border: none;
+    margin-top: 4px;
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    height: 34px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+#search_icon{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin: auto;
+}
+#voice_icon{
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    padding: 0 8px;
+    margin-bottom: 4px;
+}
+.Search_Buttons {
+    border-style: solid;
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
+    padding: 0 16px;
+    margin: 11px 4px;
+    border-radius: 4px; 
+    color: #3c4043;
+    font-family: roboto, arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    box-shadow: none;
+    display: inline-block;
+} 
+#buttons {
+    height: 70px;
+    padding-top: 18px;
 }
